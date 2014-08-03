@@ -1,2 +1,3 @@
-example/build-usbtiny
-example/pins_arduino.h
+example_*/build*
+example_*/pins_arduino.h
+pins_arduino.h
