@@ -4,7 +4,7 @@
 
 #include <Adafruit_NeoPixel.h>
 
-#define PIN 3
+#define PIN 1
 
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(32, PIN);
 
@@ -32,7 +32,7 @@ void loop() {
     delay(10);
     pixels.setPixelColor(i, 0);
     break;
- 
+
    case 1: // Spinny wheels (8 LEDs on at a time)
     for(i=0; i<16; i++) {
       uint32_t c = 0;
