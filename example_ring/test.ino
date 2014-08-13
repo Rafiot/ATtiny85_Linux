@@ -15,7 +15,7 @@ uint32_t prevTime;
 
 void setup() {
   pixels.begin();
-  pixels.setBrightness(85); // 1/3 brightness
+  pixels.setBrightness(10); // 1/3 brightness
   prevTime = millis();
 }
 
