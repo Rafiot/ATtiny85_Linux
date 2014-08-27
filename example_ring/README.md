@@ -6,7 +6,7 @@ Pixel library:
 ```
 mkdir -p ~/sketchbook/libraries
 cd ~/sketchbook/libraries
-git clone git@github.com:adafruit/Adafruit_NeoPixel.git
+git clone https://github.com/adafruit/Adafruit_NeoPixel.git
 ```
 
 Arduino-Makfile project:
